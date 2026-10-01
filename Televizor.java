@@ -9,6 +9,9 @@ public class Televizor {
         this.jacinaZvuka = jacinaZvuka;
     }
     public static void main(String[] args) {
-        
+        Televizor televizor = new Televizor(100, "HBO", 50);
+        System.out.println("Broj kanala: " + televizor.brojKanala);
+        System.out.println("Naziv kanala: " + televizor.nazivKanala);
+        System.out.println("Jacina zvuka: " + televizor.jacinaZvuka);
     }
 }
